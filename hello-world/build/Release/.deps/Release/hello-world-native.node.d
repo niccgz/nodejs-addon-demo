@@ -1,0 +1,1 @@
+cmd_Release/hello-world-native.node := c++ -bundle -undefined dynamic_lookup -Wl,-search_paths_first -mmacosx-version-min=10.7 -arch x86_64 -L./Release -stdlib=libc++  -o Release/hello-world-native.node Release/obj.target/hello-world-native/src/hello_world.o Release/nothing.a 
